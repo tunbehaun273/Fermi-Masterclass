@@ -24,11 +24,57 @@ Data search strings:
 Object name or coordinates: 24.59762,-55.07647
 Galactic
 Radius: 10
-Observation dates: 263607681,263607981
+Observation dates: 263607281,263608281
 MET
 
-fn=L230406105812F357373F22_PH00.fits
+fn=L230406111144F357373F44_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
 mv $fn GRB090510_PH00.fits
 
+3. 131108A (long)
+MET = 405636118.760, RA = 156.81, Dec = 9.57
 
+Data search strings:
+Object name or coordinates: 156.81,9.57
+J2000
+Radius: 10
+Observation dates: 405635618,405636618
+MET
+
+fn=L230406113056F357373F96_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB131108A_PH00.fits
+
+4. 140402A (short)
+MET, RA, Dec
+ 418090209.990 207.66 5.97
+
+Data search strings:
+Object name or coordinates: 207.66,5.97
+J2000
+Radius: 10
+Observation dates: 418089709,418090709
+MET
+
+fn=L230406114351F357373F56_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB140402A_PH00.fits
+
+
+5. 090902B
+MET, RA, Dec
+ 273582310.320 264.95 27.33
+Data search strings:
+Object name or coordinates: 264.95,27.33
+J2000
+Radius: 10
+Observation dates: 273581810,273582810
+MET
+
+fn= L230406115910F357373F29_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB090902B_PH00.fits
+
+
+Other options:
+130427A, 090926A
