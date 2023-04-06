@@ -1,0 +1,34 @@
+
+Get data from server:
+https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi
+
+
+1. 080916C (long)
+MET: 243216766.620, L = 270.14798, B = -13.75979
+
+Data search strings:
+Object name or coordinates: 270.14798,-13.75979
+Galactic
+Radius: 10
+Observation dates: 243216266,243217266
+MET
+
+fn=L230406105657F357373F82_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB080916C_PH00.fits
+
+2. 090510 (short)
+MET: 263607781.970, L = 024.59762, B = - 55.07647
+
+Data search strings:
+Object name or coordinates: 24.59762,-55.07647
+Galactic
+Radius: 10
+Observation dates: 263607681,263607981
+MET
+
+fn=L230406105812F357373F22_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB090510_PH00.fits
+
+
