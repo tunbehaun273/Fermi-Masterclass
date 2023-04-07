@@ -17,7 +17,7 @@ fn=L230406105657F357373F82_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
 mv $fn GRB080916C_PH00.fits
 
-2. 090510 (short)
+2. 090510 (short) - very bright short GRB
 MET: 263607781.970, L = 024.59762, B = - 55.07647
 
 Data search strings:
@@ -31,7 +31,7 @@ fn=L230406111144F357373F44_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
 mv $fn GRB090510_PH00.fits
 
-3. 131108A (long)
+3. 131108A (long) - second bump
 MET = 405636118.760, RA = 156.81, Dec = 9.57
 
 Data search strings:
@@ -45,7 +45,45 @@ fn=L230406113056F357373F96_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
 mv $fn GRB131108A_PH00.fits
 
-4. 140402A (short)
+4. 221009A (long) - very bright GRB with 18 TeV photon
+https://gcn.gsfc.nasa.gov/other/221009A.gcn3
+LAT - 14:17:05.99 on October, 09, 2022
+GBM - 13:16:59.99 UT on 09 October 2022
+MET = 687014224 (GBM trigger)
+ RA = 288.282, Dec = 19.495
+
+Data search strings:
+Object name or coordinates: 288.282,19.495
+J2000
+Radius: 10
+Observation dates: 687013724,687016224
+MET
+687014740
+687014224
+687015224
+
+fn=L230407023244F357373F77_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB221009A_PH00.fits
+
+
+
+5. 090902B - many high energy photons
+MET, RA, Dec
+ 273582310.320 264.95 27.33
+Data search strings:
+Object name or coordinates: 264.95,27.33
+J2000
+Radius: 10
+Observation dates: 273581810,273582810
+MET
+
+fn= L230406115910F357373F29_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB090902B_PH00.fits
+
+
+6. 140402A (short)
 MET, RA, Dec
  418090209.990 207.66 5.97
 
@@ -61,20 +99,9 @@ wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queri
 mv $fn GRB140402A_PH00.fits
 
 
-5. 090902B
-MET, RA, Dec
- 273582310.320 264.95 27.33
-Data search strings:
-Object name or coordinates: 264.95,27.33
-J2000
-Radius: 10
-Observation dates: 273581810,273582810
-MET
 
-fn= L230406115910F357373F29_PH00.fits
-wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
-mv $fn GRB090902B_PH00.fits
 
 
 Other options:
-130427A, 090926A
+130427A - most > 10 GeV photons with highest energy 94 GeV
+090926A - a bright long GRB
