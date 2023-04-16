@@ -67,20 +67,21 @@ wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queri
 mv $fn GRB221009A_PH00.fits
 
 
-
-5. 090902B - many high energy photons
+5. 130427A (long)
 MET, RA, Dec
- 273582310.320 264.95 27.33
+388741629.420  173.14   27.73
+
 Data search strings:
-Object name or coordinates: 264.95,27.33
+Object name or coordinates: 173.14,27.73
 J2000
 Radius: 10
-Observation dates: 273581810,273582810
+Observation dates: 388741129,388744129
 MET
 
-fn= L230406115910F357373F29_PH00.fits
+fn=L230416115120F357373F58_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
-mv $fn GRB090902B_PH00.fits
+mv $fn GRB130427A_PH00.fits
+
 
 
 6. 140402A (short)
@@ -99,20 +100,20 @@ wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queri
 mv $fn GRB140402A_PH00.fits
 
 
-7. 130427A (long)
+7. 090902B - many high energy photons
 MET, RA, Dec
-388741629.420  173.14   27.73
-
+ 273582310.320 264.95 27.33
 Data search strings:
-Object name or coordinates: 173.14,27.73
+Object name or coordinates: 264.95,27.33
 J2000
 Radius: 10
-Observation dates: 388741129,388742129
+Observation dates: 273581810,273582810
 MET
 
-fn=L230416112726F357373F10_PH00.fits
+fn= L230406115910F357373F29_PH00.fits
 wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
-mv $fn GRB130427A_PH00.fits
+mv $fn GRB090902B_PH00.fits
+
 
 
 Other options:
