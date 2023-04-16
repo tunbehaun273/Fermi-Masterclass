@@ -99,7 +99,20 @@ wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queri
 mv $fn GRB140402A_PH00.fits
 
 
+7. 130427A (long)
+MET, RA, Dec
+388741629.420  173.14   27.73
 
+Data search strings:
+Object name or coordinates: 173.14,27.73
+J2000
+Radius: 10
+Observation dates: 388741129,388742129
+MET
+
+fn=L230416112726F357373F10_PH00.fits
+wget --no-check-certificate https://fermi.gsfc.nasa.gov/FTP/fermi/data/lat/queries/$fn
+mv $fn GRB130427A_PH00.fits
 
 
 Other options:
